@@ -1,0 +1,71 @@
+body{  /*
+	body(corpo da pagina), está sendo zerada as margem,bordas e preenchimentos.
+	*/
+    margin: 0;
+	padding: 0;
+	border: 0;
+    height: 100vh; /*
+	O  height(altura)VH siginifica que é para pegar toda a altura visivel 
+	*/
+    background-image: url(https://www.selecoes.com.br/media/_versions/legacy/2/c/3025df59c0c9468a9c02975299c4d53b27a4968c_widexl.jpg);  /* imagem de fundo por URL */
+    background-position: center;  /* posição da imagem */
+    background-repeat: none; /* para que não ocorra a repetição das imagens */
+    background-size: contain; /* para que a imagem seja 100% representada. */
+
+}
+
+
+header { /*
+	no header, está sendo ajustado as cores, fontes, posição de textos e outros...
+	*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: rgba(196, 167, 2, 0.575);
+	height: 65px;
+	padding-top: 25px;
+	color: #000000e3;
+	text-align: center;
+}
+
+
+
+.menu a{ /*
+	Organização do "menu"
+	*/
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+main { 
+	/*
+	organizaçao da estrutura principal da pagina 
+	*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+img { /*
+	definição do tamanho de imagem
+	*/
+	width: 150px;
+	height: 200px;    
+  
+}
+
+Figcaption{ /*
+ajuste da fonte
+	*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
